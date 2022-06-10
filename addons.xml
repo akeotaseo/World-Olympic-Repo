@@ -49,7 +49,7 @@ provider-name="primaeval">
   </extension>
 </addon>
 
-<addon id="plugin.program.autowidget" name="AutoWidget" version="19.0.047d" provider-name="drinfernoo">
+<addon id="plugin.program.autowidget" name="AutoWidget" version="19.0.048" provider-name="drinfernoo">
     <requires>
         <import addon="script.module.kodi-six" />
         <import addon="script.module.pil" />
@@ -426,63 +426,6 @@ provider-name="primaeval">
     </menu>
   </extension>
 
-</addon>
-
-<addon id="plugin.video.atlas" name="Atlas(by CartoonsGR)" version="19.0.30" provider-name="NP-Bugatsinho-(Modified by TechNEWSology)">
-  <requires>
-    <import addon="xbmc.python" version="3.0.0"/>
-    <import addon="script.module.six" />
-    <import addon="script.module.resolveurl" version="5.0.00"/>
-    <import addon="script.module.pyxbmct" version="1.2.0"/>
-    <import addon="script.module.requests" version="2.19.1"/>
-    <import addon="plugin.video.youtube" version="6.8.10"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <platform>all</platform>
-    <summary lang="el">ΑΤΛΑΣ ΕΛΛΗΝΙΚΟ ΠΡΟΣΘΕΤΟ</summary>
-    <description lang="el">ΤΑΙΝΕΣ ΚΑΙ ΣΕΙΡΕΣ ΜΕ ΥΠOΤΙΤΛΟΥΣ-ΕΛΛΗΝΙΚΕΣ-ΠΑΙΔΙΚΑ-ΜΟΥΣΙΚΗ.O Άτλας ήταν η μυθική μορφή που κρατούσε στους ώμους του το θόλο του Ουρανού πάνω από τη Γη.</description>
-    <disclaimer lang="el">Ο δημιουργός δεν φιλοξενεί ή διανέμει οποιαδήποτε από το περιεχόμενο που εμφανίζεται από αυτό το πρόσθετο και δεν έχει οποιαδήποτε σχέση με την ιστοσελίδα και τους ιδιοκτήτες αυτής.
-    </disclaimer>
-    <summary lang="en">ΑΤΛΑΣ ΕΛΛΗΝΙΚΟ ΠΡΟΣΘΕΤΟ</summary>
-    <description lang="en">ΤΑΙΝΕΣ ΚΑΙ ΣΕΙΡΕΣ ΜΕ ΥΠOΤΙΤΛΟΥΣ-ΕΛΛΗΝΙΚΕΣ-ΠΑΙΔΙΚΑ-ΜΟΥΣΙΚΗ.O Άτλας ήταν η μυθική μορφή που κρατούσε στους ώμους του το θόλο του Ουρανού πάνω από τη Γη.</description>
-    <disclaimer lang="en">Ο δημιουργός δεν φιλοξενεί ή διανέμει οποιαδήποτε από το περιεχόμενο που εμφανίζεται από αυτό το πρόσθετο και δεν έχει οποιαδήποτε σχέση με την ιστοσελίδα και τους ιδιοκτήτες αυτής.
-    </disclaimer>
-    <language>en el</language>
-    <license>GNU GPL, version 2</license>
-    <news>[B][COLOR white]ΑΤΛΑΣ Kodi Matrix 19[/COLOR][/B]
-    - [B][COLOR lime]v19.0.30[/COLOR][/B] 19/05/2022
-       Διορθώσεις κώδικα - Προσθήκη Gamatomovies(Ξένες Σειρές)
-    - [B][COLOR lime]v19.0.29[/COLOR][/B] 17/05/2022
-       Προσθήκη Gamatomovies - gamatomovies.gr
-    - [B][COLOR lime]v19.0.28[/COLOR][/B] 09/05/2022
-       Διορθώσεις κώδικα
-       Προσθήκη Ντοκιμαντέρ - ntokimanter.gr
-    - [B][COLOR lime]v19.0.27[/COLOR][/B] 19/04/2022
-       Διορθώσεις κώδικα
-    - [B][COLOR lime]v19.0.26[/COLOR][/B] 14/04/2022
-       Προσθήκη κατηγοριών Ομάδες κ' Ψάρεμα
-       Διορθώσεις κώδικα - Coolmoviezone
-    - [B][COLOR lime]v19.0.25[/COLOR][/B] 10/04/2022
-       Διορθώσεις κώδικα - (Trailer)Gamato
-       Προσθήκη Ξένων Σειρών - Tainiomania
-    - [B][COLOR lime]v19.0.23[/COLOR][/B] 04/04/2022
-       Διορθώσεις κώδικα - Gamato
-    - [B][COLOR lime]v19.0.22[/COLOR][/B] 02/04/2022
-       Διορθώσεις κώδικα - Coolmoviezone
-    - [B][COLOR lime]v19.0.21[/COLOR][/B] 01/04/2022
-       Διορθώσεις κώδικα - Προσθήκη Coolmoviezone
-    - [B][COLOR lime]v19.0.20[/COLOR][/B] 30/03/2022
-       Διορθώσεις κώδικα - (myvideolinks)
-    - [B][COLOR lime]v19.0.19[/COLOR][/B] 28/03/2022
-    </news>
-    <assets>
-        <icon>icon.png</icon>
-        <fanart>fanart.jpg</fanart>
-    </assets>
-  </extension>
 </addon>
 
 <addon id="plugin.video.favourites" version="0.0.14.tk" name="Video Favourites" provider-name="primaeval">
