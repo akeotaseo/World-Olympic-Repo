@@ -49,7 +49,7 @@ provider-name="primaeval">
   </extension>
 </addon>
 
-<addon id="plugin.program.autowidget" name="AutoWidget" version="19.0.048c" provider-name="drinfernoo">
+<addon id="plugin.program.autowidget" name="AutoWidget" version="19.0.047e" provider-name="drinfernoo">
     <requires>
         <import addon="script.module.kodi-six" />
         <import addon="script.module.pil" />
@@ -777,7 +777,7 @@ provider-name="primaeval">
 	</extension>
 </addon>
 
-<addon id="script.module.tc" name="tc" version="1.1.6g" provider-name="tc">
+<addon id="script.module.tc" name="tc" version="1.1.6h" provider-name="tc">
     <requires>
         <!--<import addon="xbmc.python" version="2.25.0" />-->
         <import addon="script.module.beautifulsoup4"/>
