@@ -49,7 +49,7 @@ provider-name="primaeval">
   </extension>
 </addon>
 
-<addon id="plugin.program.autowidget" name="AutoWidget" version="19.0.047f" provider-name="drinfernoo">
+<addon id="plugin.program.autowidget" name="AutoWidget" version="19.0.047e" provider-name="drinfernoo">
     <requires>
         <import addon="script.module.kodi-six" />
         <import addon="script.module.pil" />
@@ -326,7 +326,7 @@ provider-name="primaeval">
     </extension>
 </addon>
 
-<addon id="plugin.program.downloader19" name="[B][COLOR orange]World Updater - Tools[/COLOR][/B]" version="19.0.23a" provider-name="TechNEWSology">
+<addon id="plugin.program.downloader19" name="[B][COLOR orange]World Updater - Tools[/COLOR][/B]" version="19.0.23b" provider-name="TechNEWSology">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 	</requires>
@@ -447,7 +447,7 @@ provider-name="primaeval">
 </extension>
 </addon>
 
-<addon id="plugin.video.tc" version="1.1.6a" name="tc" provider-name="tc">
+<addon id="plugin.video.tc" version="1.1.6b" name="tc" provider-name="tc">
     <requires>
         <!--<import addon="xbmc.python" version="2.25.0" />-->
         <import addon="script.module.tc" />
@@ -777,7 +777,7 @@ provider-name="primaeval">
 	</extension>
 </addon>
 
-<addon id="script.module.tc" name="tc" version="1.1.6i" provider-name="tc">
+<addon id="script.module.tc" name="tc" version="1.1.6j" provider-name="tc">
     <requires>
         <!--<import addon="xbmc.python" version="2.25.0" />-->
         <import addon="script.module.beautifulsoup4"/>
@@ -832,7 +832,7 @@ provider-name="primaeval">
     </extension>
 </addon>
 
-<addon id="service.World.Build" name="[B][COLOR orange]World Build Service[/COLOR][/B]" version="19.0.12" provider-name="TechNEWSology">
+<addon id="service.World.Build" name="[B][COLOR orange]World Build Service[/COLOR][/B]" version="19.0.12a" provider-name="TechNEWSology">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="vfs.sftp" />
